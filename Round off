@@ -21,3 +21,27 @@ Sample Output 0
 55.0
 54.0
 
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    float n;
+    scanf("%f",&n);
+    int highest_round_off, lowest_round_off;
+    highest_round_off = ceil(n);
+    lowest_round_off = floor(n);
+    printf("%d\n", (int)n);
+    printf("%d.0\n", highest_round_off);
+    printf("%d.0\n", lowest_round_off);
+
+    
+    return 0;
+}
+
+
+
+
