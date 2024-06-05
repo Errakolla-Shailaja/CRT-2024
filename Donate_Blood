@@ -31,7 +31,7 @@ int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
     int a,w,h;
     scanf("%d%d%d",&a,&w,&h);
-    if((a>18)&&(w>45)&&(h>5.5)){
+    if((a>=18)&&(w>=45)&&(h>=5.5)){
         printf("Eligible");
     }else{
         printf("He or She unable to donate blood");
